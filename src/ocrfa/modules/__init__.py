@@ -6,7 +6,8 @@ from .blocks import (
     Vgg16BN as Vgg16BN,
     ResNetFeatureExtractor as ResNetFeatureExtractor,
     VGGFeatureExtractor as VGGFeatureExtractor,
-    BidirectionalLSTM as BidirectionalLSTM
+    BidirectionalLSTM as BidirectionalLSTM,
+    init_weights as init_weights
 )
 
 __all__ = (
@@ -17,5 +18,6 @@ __all__ = (
     "Vgg16BN",
     "ResNetFeatureExtractor",
     "VGGFeatureExtractor",
-    "BidirectionalLSTM"
+    "BidirectionalLSTM",
+    "init_weights"
 )
